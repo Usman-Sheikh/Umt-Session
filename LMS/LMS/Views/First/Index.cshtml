@@ -1,0 +1,27 @@
+﻿
+@{
+    Layout = null;
+    var heading = "Become Full Stack .net Developer";
+    string[] _nameArray = { "Ali", "Ahmad", "Omer" };
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <h1>@heading</h1>
+        <ul>
+            @foreach (var item in _nameArray)
+            {
+                <li>@item</li>
+
+            }
+        </ul>
+    </div>
+</body>
+</html>
